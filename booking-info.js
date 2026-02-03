@@ -1,12 +1,12 @@
 // javascript
 (function () {
     const VOUCHER_URL = 'voucher_page.html';
-    const BOOKING_NO = 'JPK540137';
+    const BOOKING_NO = 'XCV917888';
     const BOOKING_DATE = '8月25日';
-    const PARTICIPANT_NAME = 'YANG YINHAO';
+    const PARTICIPANT_NAME = 'WU NIKKI';
     const VOUCHER_INFO = [
-        {'qrcode_url': 'voucher_page_files/M08021561994.jpeg', 'number': 'M08021561994'},
-        {'qrcode_url': 'voucher_page_files/M08021561996.jpeg', 'number': 'M08021561996'}
+        {'qrcode_url': 'voucher_page_files/M08021562020.jpeg', 'number': 'M08021562020'},
+        {'qrcode_url': 'voucher_page_files/M08021562022.jpeg', 'number': 'M08021562022'}
     ];
 
     function setDeepLinkForElement(el) {
