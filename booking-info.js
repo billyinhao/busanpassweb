@@ -1,11 +1,11 @@
 // javascript
 (function () {
     const VOUCHER_URL = 'voucher_page.html';
-    const BOOKING_NO = 'MYF929071';
+    const BOOKING_NO = 'YUF224874';
     const BOOKING_DATE = '8月18日';
-    const PARTICIPANT_NAME = 'GUAN SHUYUN';
+    const PARTICIPANT_NAME = 'CHEN XIAOEN';
     const VOUCHER_INFO = [
-        {'qrcode_url': 'voucher_page_files/M040111123730.jpeg', 'number': 'M040111123730'},
+        {'qrcode_url': 'voucher_page_files/M040111127246.jpeg', 'number': 'M040111127246'},
         {'qrcode_url': 'voucher_page_files/M040111123732.jpeg', 'number': 'M040111123732'}
     ];
 
