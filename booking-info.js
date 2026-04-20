@@ -3,10 +3,10 @@
     const VOUCHER_URL = 'voucher_page.html';
     const BOOKING_NO = 'YUF224874';
     const BOOKING_DATE = '8月18日';
-    const PARTICIPANT_NAME = 'CHEN XIAOEN';
+    const PARTICIPANT_NAME = 'ZHANG CHU';
     const VOUCHER_INFO = [
-        {'qrcode_url': 'voucher_page_files/M040111127246.jpeg', 'number': 'M040111127246'},
-        {'qrcode_url': 'voucher_page_files/M040111123732.jpeg', 'number': 'M040111123732'}
+        {'qrcode_url': 'voucher_page_files/M040111136772.png', 'number': 'M040111136772'},
+        {'qrcode_url': 'voucher_page_files/M040111136774.png', 'number': 'M040111136774'}
     ];
 
     function setDeepLinkForElement(el) {
