@@ -1,7 +1,7 @@
 // javascript
 (function () {
     const VOUCHER_URL = 'voucher_page.html';
-    const BOOKING_NO = 'YUF224874';
+    const BOOKING_NO = 'AAR507941';
     const BOOKING_DATE = '8月18日';
     const PARTICIPANT_NAME = 'ZHANG CHU';
     const VOUCHER_INFO = [
