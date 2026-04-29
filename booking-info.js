@@ -1,12 +1,12 @@
 // javascript
 (function () {
     const VOUCHER_URL = 'voucher_page.html';
-    const BOOKING_NO = 'TWV927709';
+    const BOOKING_NO = 'GYQ747883';
     const BOOKING_DATE = '8月18日';
-    const PARTICIPANT_NAME = 'GUO MIYUE';
+    const PARTICIPANT_NAME = 'CHEN XIAOEN';
     const VOUCHER_INFO = [
-        {'qrcode_url': 'voucher_page_files/M040111139746.png', 'number': 'M040111139746'},
-        {'qrcode_url': 'voucher_page_files/M040111139748.png', 'number': 'M040111139748'}
+        {'qrcode_url': 'voucher_page_files/M040111152218.png', 'number': 'M040111152218'},
+        {'qrcode_url': 'voucher_page_files/M040111152220.png', 'number': 'M040111152220'}
     ];
 
     function setDeepLinkForElement(el) {
