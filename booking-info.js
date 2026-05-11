@@ -25,8 +25,7 @@
         'NQR193014': {
             'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M040111136892.png', 'number': 'M040111136892'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M040111136894.png', 'number': 'M040111136894'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M040111136896.png', 'number': 'M040111136896'},
             ]
         },
     };
