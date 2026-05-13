@@ -22,10 +22,10 @@
                 {'qrcode_url': 'voucher_page_files/qrcodes/M040211142402.png', 'number': 'M040211142402'},
             ]
         },
-        'NQR193014': {
+        'XUX565072': {
             'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M040111136896.png', 'number': 'M040111136896'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111252544.png', 'number': 'M050111252544'},
             ]
         },
     };
