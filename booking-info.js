@@ -34,6 +34,12 @@
                 {'qrcode_url': 'voucher_page_files/qrcodes/M050111252544.png', 'number': 'M050111252544'},
             ]
         },
+        'NTW582942': {
+            'duration_hours': 48,
+            'vouchers': [
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050211209908.png', 'number': 'M050211209908'},
+            ]
+        },
     };
 
     function setDeepLinkForElement(el) {
