@@ -13,13 +13,13 @@
                 {'qrcode_url': 'voucher_page_files/qrcodes/M040211139740.png', 'number': 'M040211139740'},
             ]
         },
-        'WBE310311': {
-            'duration_hours': 48,
+        'PVJ337223': {
+            'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M040211200406.png', 'number': 'M040211200406'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M040211139750.png', 'number': 'M040211139750'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M040211142404.png', 'number': 'M040211142404'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M040211142402.png', 'number': 'M040211142402'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111286474.png', 'number': 'M050111286474'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111286476.png', 'number': 'M050111286476'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111286482.png', 'number': 'M050111286482'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111286484.png', 'number': 'M050111286484'},
             ]
         },
         'NQR193014': {
