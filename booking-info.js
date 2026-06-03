@@ -28,10 +28,10 @@
                 {'qrcode_url': 'voucher_page_files/qrcodes/M040111136896.png', 'number': 'M040111136896'},
             ]
         },
-        'XUX565072': {
+        'KQX593785': {
             'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111252544.png', 'number': 'M050111252544'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111252556.png', 'number': 'M050111252556'},
             ]
         },
         'NTW582942': {
