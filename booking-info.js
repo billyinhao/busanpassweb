@@ -116,7 +116,7 @@
         }
         const bookingValidity = root.querySelector('div.booking-validity-box');
         if (bookingValidity) {
-            bookingValidity.querySelector('li').innerHTML = '有效期为2025年' + BOOKING_DATE + ' 00:00至2026年' + BOOKING_DATE + ' 00:00';
+            bookingValidity.querySelector('li').innerHTML = '有效期为2026年' + BOOKING_DATE + ' 00:00至2027年' + BOOKING_DATE + ' 00:00';
         }
         const bookingCardDetail = root.querySelector('div.booking-card-detail_desc');
         if (bookingCardDetail) {
@@ -148,7 +148,7 @@
                 el.querySelector('div.voucher_title_text__content > div.markdown-content').innerHTML = PARTICIPANT_NAME;
             } else if (titleText && titleText.indexOf('Validity') >= 0) {
                 // Validity
-                el.querySelector('div.voucher_title_text__content > div.markdown-content').innerHTML = '有效期由2025年' + BOOKING_DATE + ' 00:00至2026年' + BOOKING_DATE + ' 00:00';
+                el.querySelector('div.voucher_title_text__content > div.markdown-content').innerHTML = '有效期由2026年' + BOOKING_DATE + ' 00:00至2027年' + BOOKING_DATE + ' 00:00';
             } else if (titleText && titleText.indexOf('Quantity') >= 0) {
                 // Quantity
                 el.querySelector('div.voucher_title_text__content > div.markdown-content').innerHTML = voucher_count + ' x 票卡';
