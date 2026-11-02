@@ -4,7 +4,7 @@
     // const BOOKING_NO = 'GYQ747883';
     const BOOKING_DATE = '8月18日';
     // const DURATION_HOURS = 48;
-    const PARTICIPANT_NAME = 'CHEN XIAOEN';
+    const PARTICIPANT_NAME = 'LUO ENQI';
     const VOUCHER_INFO = {
         'ECW723599': {
             'duration_hours': 48,
@@ -28,10 +28,11 @@
                 {'qrcode_url': 'voucher_page_files/qrcodes/M040111136896.png', 'number': 'M040111136896'},
             ]
         },
-        'KAA669443': {
+        'QEF779954': {
             'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111300822.png', 'number': 'M050111300822'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111290252.png', 'number': 'M050111290252'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111290254.png', 'number': 'M050111290254'},
             ]
         },
         'NTW582942': {
