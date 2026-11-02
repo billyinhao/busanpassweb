@@ -22,10 +22,10 @@
                 {'qrcode_url': 'voucher_page_files/qrcodes/M050111286484.png', 'number': 'M050111286484'},
             ]
         },
-        'NQR193014': {
+        'QCG010317': {
             'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M040111136896.png', 'number': 'M040111136896'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111300830.png', 'number': 'M050111300830'},
             ]
         },
         'QEF779954': {
