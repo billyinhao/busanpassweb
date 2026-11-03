@@ -4,31 +4,32 @@
     // const BOOKING_NO = 'GYQ747883';
     const BOOKING_DATE = '8月18日';
     // const DURATION_HOURS = 48;
-    const PARTICIPANT_NAME = 'LUO ENQI';
     const VOUCHER_INFO = {
         'ECW723599': {
+            'participant_name': '',
             'duration_hours': 48,
             'vouchers': [
                 {'qrcode_url': 'voucher_page_files/qrcodes/M040211139730.png', 'number': 'M040211139730'},
                 {'qrcode_url': 'voucher_page_files/qrcodes/M040211139740.png', 'number': 'M040211139740'},
             ]
         },
-        'PVJ337223': {
+        'WJG040098': {
+            'participant_name': 'YANG JIA',
             'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111286474.png', 'number': 'M050111286474'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111286476.png', 'number': 'M050111286476'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111286482.png', 'number': 'M050111286482'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111286484.png', 'number': 'M050111286484'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111290248.png', 'number': 'M050111290248'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M050111290250.png', 'number': 'M050111290250'},
             ]
         },
         'QCG010317': {
+            'participant_name': '',
             'duration_hours': 24,
             'vouchers': [
                 {'qrcode_url': 'voucher_page_files/qrcodes/M050111300830.png', 'number': 'M050111300830'},
             ]
         },
         'QEF779954': {
+            'participant_name': 'LUO ENQI',
             'duration_hours': 24,
             'vouchers': [
                 {'qrcode_url': 'voucher_page_files/qrcodes/M050111290252.png', 'number': 'M050111290252'},
@@ -36,6 +37,7 @@
             ]
         },
         'NTW582942': {
+            'participant_name': '',
             'duration_hours': 48,
             'vouchers': [
                 {'qrcode_url': 'voucher_page_files/qrcodes/M050211209908.png', 'number': 'M050211209908'},
@@ -94,6 +96,7 @@
         }
 
         // 从VOUCHER_INFO中取出对应的voucher列表
+        const participant_name = VOUCHER_INFO[bookingNo].participant_name;
         const duration_hours = VOUCHER_INFO[bookingNo].duration_hours;
         const vouchers = VOUCHER_INFO[bookingNo].vouchers;
         if (!Array.isArray(vouchers) || vouchers.length === 0) {
@@ -113,6 +116,10 @@
         const bookingHeader = root.querySelector('span.header-title-box__text');
         if (bookingHeader && bookingHeader.innerHTML) {
             bookingHeader.innerHTML = '订单编号：' + bookingNo;
+        }
+        const bookingBasicInfo = root.querySelector('div.klook-booking-info div.content');
+        if (bookingBasicInfo && bookingBasicInfo.innerHTML) {
+            bookingBasicInfo.innerHTML = bookingNo + bookingBasicInfo.innerHTML.substring(9);
         }
         const bookingValidity = root.querySelector('div.booking-validity-box');
         if (bookingValidity) {
@@ -143,9 +150,9 @@
         candidates.forEach(function (el) {
             const titleTextEl = el.querySelector('p.voucher_title_text__title');
             const titleText = titleTextEl && titleTextEl.innerHTML ? titleTextEl.innerHTML : '';
-            if (titleText && titleText.indexOf('Lead participant') >= 0) {
+            if (titleText && titleText.indexOf('Lead participant') >= 0 && participant_name) {
                 // Lead participant
-                el.querySelector('div.voucher_title_text__content > div.markdown-content').innerHTML = PARTICIPANT_NAME;
+                el.querySelector('div.voucher_title_text__content > div.markdown-content').innerHTML = participant_name;
             } else if (titleText && titleText.indexOf('Validity') >= 0) {
                 // Validity
                 el.querySelector('div.voucher_title_text__content > div.markdown-content').innerHTML = '有效期由2026年' + BOOKING_DATE + ' 00:00至2027年' + BOOKING_DATE + ' 00:00';
