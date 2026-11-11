@@ -13,12 +13,11 @@
                 {'qrcode_url': 'voucher_page_files/qrcodes/M040211139740.png', 'number': 'M040211139740'},
             ]
         },
-        'WJG040098': {
-            'participant_name': 'YANG JIA',
+        'GVS871151': {
+            'participant_name': 'LI XUETAO',
             'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111290248.png', 'number': 'M050111290248'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111290250.png', 'number': 'M050111290250'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M060111406536.png', 'number': 'M060111406536'},
             ]
         },
         'QCG010317': {
