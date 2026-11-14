@@ -27,12 +27,14 @@
                 {'qrcode_url': 'voucher_page_files/qrcodes/M050111300830.png', 'number': 'M050111300830'},
             ]
         },
-        'QEF779954': {
-            'participant_name': 'LUO ENQI',
+        'CCZ056789': {
+            'participant_name': 'HU LIWEN',
             'duration_hours': 24,
             'vouchers': [
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111290252.png', 'number': 'M050111290252'},
-                {'qrcode_url': 'voucher_page_files/qrcodes/M050111290254.png', 'number': 'M050111290254'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M060111412988.png', 'number': 'M060111412988'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M060111412990.png', 'number': 'M060111412990'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M070111584930.png', 'number': 'M070111584930'},
+                {'qrcode_url': 'voucher_page_files/qrcodes/M070111584932.png', 'number': 'M070111584932'},
             ]
         },
         'NTW582942': {
